@@ -14,59 +14,137 @@
 </head>
 
 <body>
-	<section class="bg-image">
-		<nav id="mainNavbar" class="navbar navbar-expand-md py-3 navbar-dark">
-			<a class="navbar-brand" href="#">LOGO</a>
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navLinks">
-				<ul class="navbar-nav mx-auto">
-					<li class="nav-item">
-						<a href="" class="nav-link">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">WORK</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">CONTACT</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">ABOUT ME</a>
-					</li>
-				</ul>
-				<ul class="navbar-nav mx-auto">
-					<li class="nav-item">
-						<a href="" class="nav-link">SIGN UP</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">LOGIN</a>
-					</li>
-				</ul>
+	<section class="container-fluid container-hero">
+		<div class="bg-image">
+			<nav id="mainNavbar" class="navbar navbar-expand-md py-3 navbar-dark">
+				<a class="navbar-brand" href="#">LOGO</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navLinks">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a href="" class="nav-link">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">WORK</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">CONTACT</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">ABOUT ME</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a href="" class="nav-link">SIGN UP</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- class="d-flex flex-column justify-content-center text-center text-white align-items-center" -->
+			<div class="row align-items-center h-50" id="homeSection">
+				<div class="col homeContent text-center text-white ">
+					<h1 class="hero-h1">Play traditional game</h1>
+					<h3 class="hero-h3">Experience new traditional game play</h3>
+					<button type="button" class="btn btn-warning btn-lg">PLAY NOW</button>
+				</div>
 			</div>
-		</nav>
-		<section id="homeSection"
-			class="d-flex flex-column justify-content-center text-center text-white align-items-center h-50">
-			<div class="homeContent">
-				<h1>Play traditional game</h1>
-				<h3>Experience new traditional game play</h3>
-				<button type="button" class="btn btn-warning btn-lg px-5">PLAY NOW</button>
+		</div>
+	</section>
+
+	<section class="container-fluid container-about">
+		<div class="bg-about">
+			<div class="row row-about justify-content-center mx-auto ">
+				<div class="col-3 col-about text-white">
+					<h3 class="content-h3">What's so special?</h3>
+					<h2 class="content-h2 text-end">THE GAMES</h2>
+				</div>
+				<div class="col-7 right-side">
+					<img src="assets/rockpaperstrategy-1600.jpg" alt="" class="img-about">
+				</div>
 			</div>
-		</section>
-
+		</div>
 	</section>
 
-	<section class="bg-about">
-
+	<section class="container-fluid">
+		<div class="bg-feature">
+			<div class="row row-feature justify-content-end mx-auto text-white ">
+				<div class="col-5 col-feature mx-5 ">
+					<h3 class="content-h3">What's so special?</h3>
+					<h2 class="content-h2">FEATURES</h2>
+				</div>
+				<div class="row row-feature-content justify-content-end m-5">
+					<div class="col-1">
+						<img src="assets/ellipse.svg" alt="">
+					</div>
+					<div class="col-4">
+						<h4 class="title-feature-content">TRADITIONAL GAMES</h4>
+						<p class="content-p4">If you miss your childhood, we provide many traditional games here</p>
+					</div>
+				</div>
+				<div class="row row-feature-content justify-content-end m-5 mt-0">
+					<div class="col-1">
+						<img src="assets/ellipse-outline.svg" alt="">
+					</div>
+					<div class="col-4">
+						<h4 class="title-feature-content">GAME SUIT</h4>
+					</div>
+				</div>
+				<div class="row row-feature-content justify-content-end m-5 mt-0">
+					<div class="col-1">
+						<img src="assets/ellipse-outline.svg" alt="">
+					</div>
+					<div class="col-4">
+						<h4 class="title-feature-content">TBD</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid container-req">
+		<div class="bg-req">
+			<p class="p-req text-white mx-auto">Can My Computer Run This Game?</p>
+			<div class="row row-req justify-content-start mx-5 text-white">
+				<div class="col-6 col-feature mx-5 mb-5">
+					<h2 class="content-h2">SYSTEM REQUIREMENTS</h2>
+				</div>
+				<div class="row row-req-content justify-content-start m-5 mb-0">
+					<div class="col-3 border border-secondary">
+						<h4 class="title-feature-content mt-2">OS:</h4>
+						<p class="content-p4">Windows 7 64-bit only <br>(No OSX support at this time)</p>
+					</div>
+					<div class="col-3 border border-start-0 border-secondary">
+						<h4 class="title-feature-content mt-2">PROCESSOR:</h4>
+						<p class="content-p4">Intel Core 2 Duo @ 2.4 GHZ or <br> AMD Athlon X2 @ 2.8 GHZ</p>
+					</div>
+				</div>
+				<div class="row row-feature-content justify-content-start m-0 mx-5">
+					<div class="col-3 border border-top-0 border-secondary">
+						<h4 class="title-feature-content mt-2">MEMORY:</h4>
+						<p class="content-p4">4 GB RAM</p>
+					</div>
+					<div class="col-3 border border-top-0 border-start-0 border-secondary">
+						<h4 class="title-feature-content mt-2">STORAGE:</h4>
+						<p class="content-p4">8 GB available space</p>
+					</div>
+				</div>
+				<div class="row row-feature-content justify-content-start m-5 mt-0">
+					<div class="col-6 border border-top-0 border-secondary">
+						<h4 class="title-feature-content mt-2">GRAPICHS:</h4>
+						<p class="content-p4">NVIDIA GeForce GTX 660 2GB or <br> AMD Radeon HD 7850 2GB DirectX11
+							(Shader
+							Model 5)</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
-	<section class="bg-feature">
-
-	</section>
-
-	<section class="bg-req">
-
-	</section>
 
 	<section class="bg-quote">
 
